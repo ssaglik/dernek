@@ -1,0 +1,38 @@
+Boş bir WORDPRESS kurulumunda;
+"Kullanıcılar" -> "Yeni kullanıcı ekle"
+
+1) Kullanıcı adı (zorunlu)
+2) E-posta (zorunlu)
+3) Ad
+4) Soyad
+5) İnternet sitesi
+6) Dil = Site varsayılanı
+7) Parola
+8) Kullanıcı bildirimi (Çek kutusu, Yeni kullanıcıya hesabı ile ilgili bilgilendirme e-postası gönder)
+9) Rol = Abone  (Abone,Katılımcı,Yazar,Editör,Yönetici)
+
+
+14 kolon içeren bir excel tablom var. Bu excel tablosunda 9600 kişinin aşağıdaki 14 kolonluk bilgisi var. 
+Bu eklenti bir derneğin üye yönetimi eklentisi olacak. Dernek eklentisi wordpress ol menüde ayrı bir menü olsun.
+Dernek eklentisinde yeni üye ekleme ve Tüm üyeler menüsü olsun. Yeni üye ekleme menüsünde aşağıdaki 14 bilgi olsun.
+Yeni üye eklendiğinde, wordpressin doğal kullanıcı yönetimindeki bilgilerle uyuşanları, wordpressin doğal kısmına kayıt etsin. Kayıt eklerken parolayı TC kimlik no yapsın. Zayıf bir parola olabilir fafak bu durumu sonra değerlendireceğim.
+Tüm üyeler menüsünde , 9600 kişinin 14 kolonluk bilgisi görünsün. 14 kolon için de arama yapılabilsin.
+
+1) Durum =  Dropdown Array('Aktif','Pasif') (Pasif ise kullanıcı wordpress ön yüzünden login olamayacak)
+2) Sicil No = text
+* 3) first_name
+* 4) last_name
+5) TC Kimlik No 
+6) Ev Ülke = Dünydaki Ülkeler
+7) Ev Adresi = Metin
+8) Ev İl = Dizi , Türkiyede'ki 81 il ( Ülke Türkiye ise dropdown, faklı ise text kutusu)
+9) Ev İlçe = Dizi, Türkiye'deki 81 ilin ilçelerinden biri ( Ülke Türkiye ise dropdown, faklı ise text kutusu)
+10) Giriş Tarihi = (Default bugün)
+11) Üye grup = Dropdown dizi ("Asil Üye", "Yedek Üye")
+12) Cep Tel
+* 13) Email
+14) Doğrum Tarihi
+15) Baba adı
+16) Anne adı
+
+
